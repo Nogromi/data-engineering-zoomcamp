@@ -9,6 +9,7 @@ sources:
     tables:
       - name: green_tripdata
       - name: yellow_tripdata
+      - name: fhv
 models:
   
   - name: stg_green_tripdata
@@ -209,4 +210,3 @@ models:
       - name: payment_type_description
         data_type: string
         description: ""
-
